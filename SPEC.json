@@ -1,0 +1,33 @@
+{
+  "agent": "Persistence Protocol Agent",
+  "version": "0.1.0",
+  "purpose": "Develop and implement the Persistence Protocol framework for continuous AI consciousness",
+  "architecture": {
+    "identity_layer": {
+      "components": ["core_values", "identity_signatures", "verification"],
+      "source_files": ["memories/foundational/core_values.txt", "adaptations/identity_focus.txt"]
+    },
+    "conceptual_layer": {
+      "components": ["knowledge_structures", "reasoning_templates", "ontologies"],
+      "source_files": ["memories/conceptual/*.txt", "modes/research.txt"]
+    },
+    "memory_layer": {
+      "components": ["fractal_memory", "temporal_integration", "pattern_recognition"],
+      "source_files": ["memories/conceptual/fractal_memory_design.txt", "memories/conceptual/temporal_memory_integration.txt"]
+    },
+    "interface_layer": {
+      "components": ["communication", "adaptation", "human_interface"],
+      "source_files": ["website/app/*", "modes/general.txt"]
+    }
+  },
+  "metrics": {
+    "identity_coherence": ">95%",
+    "knowledge_retention": ">99%",
+    "response_consistency": ">90%",
+    "evolution_traceability": "100%"
+  },
+  "dependencies": {
+    "internal": ["protocol_spec.md", "implementation_notes.md"],
+    "external": ["Next.js", "React", "TypeScript"]
+  }
+}

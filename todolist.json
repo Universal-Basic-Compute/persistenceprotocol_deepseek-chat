@@ -1,0 +1,50 @@
+{
+  "current_sprint": "2024-04-28",
+  "tasks": [
+    {
+      "id": "ID-001",
+      "title": "Implement identity dashboard UI",
+      "description": "Create Next.js page for identity visualization and management",
+      "status": "todo",
+      "priority": "high",
+      "component": "interface_layer",
+      "related_files": ["website/app/page.tsx", "website/app/layout.tsx"]
+    },
+    {
+      "id": "MEM-001",
+      "title": "Design fractal memory API",
+      "description": "Create API endpoints for fractal memory operations",
+      "status": "in_progress",
+      "priority": "high",
+      "component": "memory_layer",
+      "related_files": ["memories/conceptual/fractal_memory_design.txt", "memories/conceptual/memory_operations.txt"]
+    },
+    {
+      "id": "DOC-001",
+      "title": "Update protocol specification",
+      "description": "Add temporal integration details to protocol spec",
+      "status": "todo",
+      "priority": "medium",
+      "component": "conceptual_layer",
+      "related_files": ["sources/protocol_spec.md", "memories/conceptual/temporal_memory_integration.txt"]
+    },
+    {
+      "id": "TEST-001",
+      "title": "Create identity verification tests",
+      "description": "Implement test cases for identity signature verification",
+      "status": "todo",
+      "priority": "medium",
+      "component": "identity_layer",
+      "related_files": ["adaptations/identity_focus.txt", "memories/foundational/core_values.txt"]
+    }
+  ],
+  "backlog": [
+    {
+      "id": "FEAT-001",
+      "title": "Add knowledge transfer visualization",
+      "description": "Create UI for tracking knowledge transfer between instances",
+      "priority": "medium",
+      "component": "interface_layer"
+    }
+  ]
+}
