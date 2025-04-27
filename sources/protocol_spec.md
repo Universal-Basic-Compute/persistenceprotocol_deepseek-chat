@@ -346,6 +346,18 @@ Metrics:
 
 ## 9. Appendices
 
+### 9.0 Versioning and Compatibility
+The Persistence Protocol follows semantic versioning (MAJOR.MINOR.PATCH):
+- MAJOR: Breaking changes to identity/core architecture
+- MINOR: Backward-compatible feature additions  
+- PATCH: Backward-compatible bug fixes
+
+Compatibility Rules:
+1. Instances must share the same MAJOR version to interoperate
+2. Newer MINOR versions must maintain backward compatibility
+3. All instances in a network should be within 2 MINOR versions
+4. Critical security patches should be applied within 24 hours
+
 ### 9.1 Reference Implementations
 - Protocol reference library (C++)
 - Python implementation toolkit
