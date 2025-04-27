@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply p-6 border border-gray-200 rounded-lg hover:shadow-md transition-all;
+}
+
+.card h2 {
+  @apply text-primary-600 dark:text-primary-400;
+}
